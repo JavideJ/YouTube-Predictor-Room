@@ -8,6 +8,8 @@ import os
 from datetime import datetime
 from googleapiclient.discovery import build
 
+nltk.download()
+
 
 def preprocessor(text):
     text = re.sub(r'<[^>]*>', '', text) #Para eliminar las etiquetas HTML
