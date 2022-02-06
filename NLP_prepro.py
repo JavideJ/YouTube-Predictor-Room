@@ -8,7 +8,6 @@ import os
 from datetime import datetime
 from googleapiclient.discovery import build
 
-nltk.download()
 
 
 def preprocessor(text):
