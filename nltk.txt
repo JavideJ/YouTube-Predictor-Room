@@ -1,6 +1,11 @@
 alpino
+averaged_perceptron_tagger
 biocreative_ppi
 brown
 brown_tei
+porter_test
+punkt
+spanish_grammars
 stopwords
+vader_lexicon
 wordnet
