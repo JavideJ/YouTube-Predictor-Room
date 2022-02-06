@@ -1,0 +1,11 @@
+flask==1.1.2
+google-api-core==2.2.2
+google-api-python-client==2.31.0
+google-auth-httplib2==0.1.0
+google-pasta==0.2.0
+googleapis-common-protos==1.53.0
+googletrans==4.0.0rc1
+gunicorn==20.1.0
+nltk==3.6.1
+numpy==1.20.1
+pandas==1.2.4
