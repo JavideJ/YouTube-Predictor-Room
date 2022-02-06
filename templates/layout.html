@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Youtube Predictor Room</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+		<div class="container-fluid">
+    		<a class="navbar-brand" style="font-size:30px" href="/">YouTube Predictor Room</a>
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+  		</div>
+	</nav>
+	<nav class="navbar navbar-light bg-light py-1">
+  		<div class="container-fluid">
+    		<span class="navbar-text">
+      			Machine Learning services for YouTube
+   			</span>
+  		</div>
+	</nav>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom py-1">
+		<div class="container-fluid">
+    		<a class="navbar-text" style="color:white" href="https://www.linkedin.com/in/javier-de-juan-portela/?locale=en_US">Created by Javi de Juan
+    		</a>
+  		</div>
+	</nav>
+
+	<div class='container pt-5' >
+		{% block body %}
+		{% endblock %}
+	</div>
+
+</body>
+</html>

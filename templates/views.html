@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block body %}
+<h1 align="center" class="font-weight-bold">Predicted views</h1>
+<h2 align="center" class="font-weight-bold">{{ pred }}</h2>
+<br>
+<h1 align="center" class="font-weight-normal">Real views</h1>
+<h2 align="center" class="font-weight-bold">{{ real }}</h2>
+<br>
+<h1 align="center" class="font-weight-normal">Error</h1>
+<h2 align="center" class="font-weight-bold">{{ error }} %</h2>
+{% endblock %}

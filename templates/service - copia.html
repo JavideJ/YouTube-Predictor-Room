@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Select service</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+</head>
+
+	<body>
+
+	<form action="/services/result" method="POST">
+
+	<center>
+	<h1>Select service</h1>
+	<br>
+	
+	<h3>
+	Channel <input type="checkbox" value="1" name="mycheckbox">
+	Views <input type="checkbox" value="2" name="mycheckbox">
+	Likes <input type="checkbox" value="3" name="mycheckbox">
+	<button type="submit">
+	submit
+	</h3>
+
+	</form>
+	<br>
+	<br>
+	<br>
+	<img src="{{ url_for('static', filename='YT_logo.png') }}" alt="YouTube.jpg" height="300" width="300">
+	</body>
+
+
+	
+
+</html>
