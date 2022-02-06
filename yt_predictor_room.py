@@ -18,6 +18,9 @@ def services():
         print(url)
               
         return render_template('service.html')
+    
+global url2
+url2 = url.copy()
 
 @app.route('/services/result', methods = ['GET', 'POST'])
 def result():
@@ -29,9 +32,9 @@ def result():
     
         
         if value_ == ['1']:
-            print(url)
+            print(url2)
             
-            pred, real = prediction(url, dislikes, value_)
+            pred, real = prediction(url2, dislikes, value_)
             
             return render_template('channel.html', pred = pred, real = real)
         
