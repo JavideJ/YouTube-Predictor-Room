@@ -1,1 +1,6 @@
+alpino
+biocreative_ppi
+brown
+brown_tei
 stopwords
+wordnet
