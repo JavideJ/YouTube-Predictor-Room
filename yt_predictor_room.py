@@ -14,6 +14,8 @@ def services():
         global url, dislikes
         url = request.form['url']
         dislikes = int(request.form['dislikes'])
+        
+        print(url)
               
         return render_template('service.html')
 
@@ -27,6 +29,7 @@ def result():
     
         
         if value_ == ['1']:
+            print(url)
             
             pred, real = prediction(url, dislikes, value_)
             
