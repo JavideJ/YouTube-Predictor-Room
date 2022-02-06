@@ -2,6 +2,11 @@ from flask import Flask, render_template, request
 from NLP_prepro import prediction
 import pymongo
 import os
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
 
